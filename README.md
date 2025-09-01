@@ -18,14 +18,12 @@ The code from https://c3-lang.org/language-common/arrays/ is stored under `langu
 The folder hierarchy reflects the documentation path. For example:
 ```
 .
-├── language-common/
-│   ├── arrays/
+├── 4-language-common/
+│   ├── 4.1-arrays/
 │   │   ├── ex1.c3
 │   │   ├── ex2.c3
 │   │   └── README.md
-│   └── pointers/
-├── control-flow/
-│   └── if-else/
+│   └── 4.2-alias/
 ```
 
 Each subdirectory may contain:
@@ -39,11 +37,11 @@ To build or run an example, you will need the [C3 compiler](https://c3-lang.org/
 
 Then compile any example like:
 ```
-> c3c compile language-common/arrays/ex1.c3
+> c3c compile 4-language-common/4.1-arrays/ex1.c3
 ```
 or simply run:
 ```
-> c3c run language-common/arrays/ex1.c3
+> c3c run 4-language-common/4.1-arrays/ex1.c3
 ```
 
 ## Notes
